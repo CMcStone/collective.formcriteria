@@ -15,7 +15,7 @@
   <include file="deprecated.zcml" />
 
   <include package=".form" />
-  <include package=".portlet" />
+  <!--include package=".portlet" /-->
 
   <adapter factory=".criteria.context.getPublishedContext" />
 
